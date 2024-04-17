@@ -8,8 +8,10 @@ pipeline {
     }
     stages {
         stage('Build') {
-            echo 'Building...'
-            sh 'go build'
+            steps {
+                echo 'Building...'
+                sh 'go build'
+            }
         }
     }
 }
