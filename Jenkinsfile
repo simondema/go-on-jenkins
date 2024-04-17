@@ -1,3 +1,3 @@
-@Library('go-pipeline@main')
+@Library('go-pipeline')
 
 standard()
